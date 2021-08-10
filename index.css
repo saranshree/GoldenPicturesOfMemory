@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: aqua;
+    padding-top: 100px;
+    height:560px;
+    color:rgb(246, 248, 223) ;
+    background-image: url('mountain.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+}
+
+.card{
+    padding: 10px;
+    margin: 35px;
+    transition: transform 2s;
+}
+
+.card:hover {
+    transform: scale(1.1); 
+  }
+
+.card-body{
+    text-align: center;
+    margin: auto;
+}
+
+.cardcolor{
+    background-color: #052424;
+}
